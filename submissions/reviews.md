@@ -3,7 +3,7 @@ The essay presents a review on applications of machine learning methods in banki
 
 As a reader with some basic understanding in economics, I appreciate especially your introduction of the work by Frantar & Alistarh (2022) that employed sparse GPT to prune GPT class models.
 
-Suggestions:
+## Suggestions on the current essay
 
 1) Perhaps author could relate the essay content with the various datasets on Kaggle; here's an example query:
 https://www.kaggle.com/search?q=banking+date%3A730+in%3Adatasets
@@ -23,9 +23,13 @@ Reference: https://stats.stackexchange.com/questions/250212/is-overfitting-a-pro
 
 4) In the conclusion, it was mentioned that recommendation systems may risk adversarial attacks; could the author give some illustrative examples?
 
-5)For instance, this dataset seems large but it is synthetic:Fraud detection payment system's dataset | Kaggle
-Would you have thoughts on the utility of it?
 
-6) A quick search shows the following datasets users could explore on recommendations:
+## Ideas to expand your essage
+
+1) It would be great if the author could relate some of the materials found on Kaggle to this timely topic as cyber frauds are on the rise world wide.
+
+- For instance, a quick search shows the following datasets Kaggle users could explore on recommendations:
+
+2) It would be nice to hear author's thoughts on the generalizability of some of the synthetic datasets found on Kaggle: for instance, the dataset called *Fraud detection payment system's dataset* seems large. Would you have thoughts on its utility in real-world commerce?
 
  
