@@ -1,17 +1,17 @@
-Authors, Year, Methods, Tasks, Applications, Ensemble, Benchmark, Ablation/validation
-Mukherjee et al., 2021, VGG16, visual recognition, rescue, 0, 0, 1
-Parate et al., 2022, Cycle GAN, visual recognition, rescue, 0, 0, 1
-Ozaki, 2022, metric learning,  visual recognition, rescue, 0, 1, 1
-XIX, 2022, , visual recognition, rescue, 0, 0, 0
-Traffick Jam, 2022, , text, rescue, 0, 0, 0
-Traffick Cam, 2022, , visual recognition, rescue, 0, 0, 0
-Spotlight, 2012, ,criminal network analysis, rescue, 0, 0, 0
-Lin et al., 2021, EfficientNet-B5, visual recognition, rescue, 0, 1, 1
-Tian et al., 2022, multi-task cascaded CNN + vision transformers, visual recognition, rescue, 1, 1, 1
-InfoShield by McGill University, 2022, network analysis, mining criminal networks, prosecution, 0, 0, 0
-Cepeda, 2022, web scaping + bigram window + network analysis, mining criminal networks, prosecution, 0, 0, 0
-Gholizadehy et al., 2020, random forest, predict incidents, prevention, 0, 1, 1
-Ahmed et al., 2022, statistical model + drug trafficking, predict incidents, prevention,  0, 0, 1
-Ramchandani et al., 2021, active learning + word embeddings, mining, prosecution, 0, 0, 1
-Dimas et al., 2023, document envelop analysis, facility optimization, operational research, 0, 0, 1
-Keskin et al., 2021, network simulation + random walks on graph, predict incidents, prosecution, 0, 0, 1
+XAI, Ensemble, Benchmark, Ablation/validation, Active learning, Authors, Year, Methods, Tasks, Applications 
+0, 0, 0, 1, 0, Mukherjee et al., 2021, VGG16, visual recognition, rescue 
+0, 0, 0, 1, 0, Parate et al., 2022, Cycle GAN, visual recognition, rescue
+0, 0, 1, 1, 0, Ozaki, 2022, metric learning,  visual recognition, rescue
+0, 0, 0, 0, 0, XIX, 2022, , visual recognition, rescue
+0, 0, 0, 0, 0, Traffick Jam, 2022, , text, rescue
+0, 0, 0, 0, 0, TraffickCam, 2022, , visual recognition, rescue
+0, 0, 0, 0, 0, Spotlight, 2012, ,criminal network analysis, rescue
+0, 1, 1, 0, 0, Lin et al., 2021, EfficientNet-B5, visual recognition, rescue
+0, 1, 1, 1, 0, Tian et al., 2022, multi-task cascaded CNN + vision transformers, visual recognition, rescue
+0, 0, 0, 0, 0, InfoShield by McGill University, 2022, network analysis, mining criminal networks, prosecution
+0, 0, 0, 0, 0, Cepeda, 2022, web scaping + bigram window + network analysis, mining criminal networks, prosecution
+0, 0, 1, 1, 0, Gholizadehy et al., 2020, random forest, predict incidents, prevention
+0, 0, 0, 1, 0, Ahmed et al., 2022, statistical model + drug trafficking, predict incidents, prevention  
+0, 0, 0, 1, 0, Ramchandani et al., 2021, active learning + word embeddings, mining, prosecution
+0, 0, 0, 1, 0, Dimas et al., 2023, document envelop analysis, facility optimization, operational research
+0, 0, 0, 1, 0, Keskin et al., 2021, network simulation + random walks on graph, predict incidents, prosecution
