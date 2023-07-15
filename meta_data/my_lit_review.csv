@@ -1,4 +1,4 @@
-Publication, Year, Methods, Tasks, Applications, Ensemble, Benchmark, Ablation/validation
+Author(s), Year, Methods, Tasks, Applications, Ensemble, Benchmark, Ablation/validation
 Mukherjee et al., 2021, VGG16, visual recognition, rescue, 0, 0, 1
 Parate et al., 2022, Cycle GAN, visual recognition, rescue, 0, 0, 1
 Ozaki, 2022, metric learning,  visual recognition, rescue, 0, 1, 1
