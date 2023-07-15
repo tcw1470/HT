@@ -5,7 +5,7 @@ Ozaki, 2022, metric learning,  visual recognition, rescue, 0, 1, 1
 XIX, 2022, , visual recognition, rescue, 0, 0, 0
 Traffick Jam, 2022, , text, rescue, 0, 0, 0
 Traffick Cam, 2022, , visual recognition, rescue, 0, 0, 0
-Spotlight, 2012, criminal network analysis, rescue, 0, 0, 0
+Spotlight, 2012, ,criminal network analysis, rescue, 0, 0, 0
 Lin et al., 2021, EfficientNet-B5, visual recognition, rescue, 0, 1, 1
 Tian et al., 2022, multi-task cascaded CNN + vision transformers, visual recognition, rescue, 1, 1, 1
 InfoShield by McGill University, 2022, network analysis, mining criminal networks, prosecution, 0, 0, 0
