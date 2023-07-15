@@ -2,9 +2,14 @@ Authors, Year, Methods, Tasks, Applications, Ensemble, Benchmark, Ablation/valid
 Mukherjee et al., 2021, VGG16, visual recognition, rescue, 0, 0, 1
 Parate et al., 2022, Cycle GAN, visual recognition, rescue, 0, 0, 1
 Ozaki, 2022, metric learning,  visual recognition, rescue, 0, 1, 1
+XIX, 2022, , visual recognition, rescue, 0, 0, 0
+Traffick Jam, 2022, , text, rescue, 0, 0, 0
+Traffick Cam, 2022, , visual recognition, rescue, 0, 0, 0
+Spotlight, 2012, criminal network analysis, rescue, 0, 0, 0
 Lin et al., 2021, EfficientNet-B5, visual recognition, rescue, 0, 1, 1
 Tian et al., 2022, multi-task cascaded CNN + vision transformers, visual recognition, rescue, 1, 1, 1
-Cepeda, 2022, web scaping + bigram window + network analysis, mining, prosecution, 0, 0, 0
+InfoShield by McGill University, 2022, network analysis, mining criminal networks, prosecution, 0, 0, 0
+Cepeda, 2022, web scaping + bigram window + network analysis, mining criminal networks, prosecution, 0, 0, 0
 Gholizadehy et al., 2020, random forest, predict incidents, prevention, 0, 1, 1
 Ahmed et al., 2022, statistical model + drug trafficking, predict incidents, prevention,  0, 0, 1
 Ramchandani et al., 2021, active learning + word embeddings, mining, prosecution, 0, 0, 1
