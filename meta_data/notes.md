@@ -18,7 +18,7 @@
 
 - $\mathcal G$ generates realistic data sample $z_i$
 - $\mathcal D$ tries to discriminate generated data from real samples 
-- $\mathcal D$ seeks to minimize the **Wasserstein distance** between real $x$ and generated data $z$ while the $\mathcal G$ seeks to maximize the same distance via:
+- In one formulation, $\mathcal D$ seeks to minimize the **Wasserstein distance** between real $X$ and generated data $Z$ while the $\mathcal G$ seeks to maximize the same distance via:
 
 $$E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - E_{x ~ p_{data}}[ \mathcal{D(x)} ] +\lambda || \triangledown_x D(\hat{x}) ||_2 - 1 $$
 
