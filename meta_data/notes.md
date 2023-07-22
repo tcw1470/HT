@@ -4,7 +4,7 @@
 - imbalance
 - privacy
 
-$E[ \mathcal{D}(\mathcal{G}) ]$
+$E[ \mathcal{D}(\mathcal{G(z)}) ] - E[ \mathcal{D(x)} ] +\lambda || \eta D(\hat{x}) ||_2 - 1 $
 
 ## Measuring quality
 - attribute fidelity: synthesized attributes
