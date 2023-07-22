@@ -3,9 +3,18 @@
 ## Problems
 - imbalance
 - privacy
+- 
+## Formulation 
 
-$E[ \mathcal{D}(\mathcal{G(z)}) ] - E[ \mathcal{D(x)} ] +\lambda || \eta D(\hat{x}) ||_2 - 1 $
+$\mathcal D$ seeks to minimize 
+the **Wasserstein distance** between real $x$ and generated data $z$ while the $\mathcal G$ seeks to maximize the same distance via:
 
+$\min\max E[ \mathcal{D}(\mathcal{G(z)}) ] - E+{x \approx }[ \mathcal{D(x)} ] +\lambda || \triangledown D(\hat{x}) ||_2 - 1 $
+
+
+- Term 1
+- Term 2
+- Term 3: gradient penalty  
 ## Measuring quality
 - attribute fidelity: synthesized attributes
 -  
