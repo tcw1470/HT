@@ -6,11 +6,12 @@
 - ...
  
 ## Measuring quality/ objecties
-- **Utility**: as motivation to generated data is to improve performance in ML tasks, we may measure how the synethesized data performs dimension-wise prediction as better than without synthesis 
-- **attribute fidelity**: generated attributes are faithful to original attributes
+- **attribute fidelity**
 - **column-pair fidelity**: measures the discrepancy between the correlation matrices of the real ($X$) and synthetic data ($Z$)
+- **joint fidelity**: joint distributions of $X$ and $Z$ are similar
 - **marginal fidelity**: marginals of $z_i$ align with the marginals of $x_i$
   - Jensen-Shannon divergence, Wasserstein distance, column correlation, histogram intersection
+- **Utility**: as motivation to generated data is to improve performance in ML tasks, we may measure how use of $Z$ improves **dimension-wise prediction** when compared to use of $X$ alone
 
     
 ## Formulation 
