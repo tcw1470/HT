@@ -16,8 +16,9 @@
     
 ## Formulation 
 
-$\mathcal D$ seeks to minimize 
-the **Wasserstein distance** between real $x$ and generated data $z$ while the $\mathcal G$ seeks to maximize the same distance via:
+- $\mathcal G$ generates realistic data sample $z_i$
+- $\mathcal D$ tries to discriminate generated data from real samples 
+- $\mathcal D$ seeks to minimize the **Wasserstein distance** between real $x$ and generated data $z$ while the $\mathcal G$ seeks to maximize the same distance via:
 
 $$E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - E_{x ~ p_{data}}[ \mathcal{D(x)} ] +\lambda || \triangledown_x D(\hat{x}) ||_2 - 1 $$
 
@@ -25,11 +26,15 @@ $$E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - E_{x ~ p_{data}}[ \mathcal{D(
 - Term 2
 - Term 3: gradient penalty
 
+## Benchmarks
+
 **TableGAN** (Park et al., 2018)
+-
+-
 
 **CTGAN** (Xu et al., 2019): 
-+ high attribute fidelity 
-- problem when low-data
+- high attribute fidelity 
+- problem with low-dimensionality 
 
 **TVAE** (Xu et al., 2019) 
 
