@@ -3,13 +3,14 @@
 ## Problems
 - imbalance
 - privacy
-- 
+- ...
+
 ## Formulation 
 
 $\mathcal D$ seeks to minimize 
 the **Wasserstein distance** between real $x$ and generated data $z$ while the $\mathcal G$ seeks to maximize the same distance via:
 
-$$\mathop{\mathbb{E}}_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - \mathop{\mathbb{E}}_{x ~ p_{data}}[ \mathcal{D(x)} ] +\lambda || \triangledown_x D(\hat{x}) ||_2 - 1 $$
+$$E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - E_{x ~ p_{data}}[ \mathcal{D(x)} ] +\lambda || \triangledown_x D(\hat{x}) ||_2 - 1 $$
 
 
 - Term 1
