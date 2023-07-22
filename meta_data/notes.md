@@ -4,6 +4,8 @@
 - imbalance
 - privacy
 
+$E[ \mathcal{D}(\mathcal{G}) ]$
+
 ## Measuring quality
 - attribute fidelity: synthesized attributes
 -  
