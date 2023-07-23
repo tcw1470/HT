@@ -1,6 +1,8 @@
 # GAN
 
-## Problems
+Generate realistic synethetic data $Z$ from real data $X$ 
+
+## Challenges to overcome
 - imbalance
 - privacy
 - ...
