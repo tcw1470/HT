@@ -20,7 +20,7 @@
 - $\mathcal D$ tries to discriminate generated data from real samples 
 - In one formulation, $\mathcal D$ seeks to minimize the **Wasserstein distance** between real $X$ and generated data $Z$ while the $\mathcal G$ seeks to maximize the same distance via:
 
-$$  E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G}(z)) ] - E_{x ~ p_{data}}[ \mathcal{D(x)} ] +\lambda || \triangledown_x D(\hat{x}) ||_2 - 1 $$
+$$ L_{WGP} :=  E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G}(z)) ] - E_{x ~ p_{data}}[ \mathcal{D(x)} ] +\lambda || \triangledown_x D(\hat{x}) ||_2 - 1 $$
 
 - Term 1: low when discriminator guesses generated data points $z_i$ incorrectly 
 - Term 2: low when discriminator identifies real datapoints $x_j$  correctly
@@ -40,7 +40,5 @@ $$  E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G}(z)) ] - E_{x ~ p_{data}}[ \mathcal{
 **MargCTGAN** (Afonja et al., 2023)
 > feature matching of decorrelated marginals in the principal componenet space
 - Use PCA $f(X)$ to compute first and second order moments
- 
-$L_{WGP}+ L_{cond} + L_{marg}$
-
-$L_marg = L_{mean} + L_{std}$
+ $L_{marg} = L_{mean} + L_{std}$
+- $L_{WGP}+ L_{cond} + L_{marg}$
