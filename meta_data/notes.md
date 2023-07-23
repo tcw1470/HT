@@ -40,4 +40,5 @@ $$  E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G}(z)) ] - E_{x ~ p_{data}}[ \mathcal{
 **MargCTGAN** (Afonja et al., 2023)
 > feature matching of decorrelated marginals in the principal componenet space
 
-$${L_{WGP}+ L_{cond} + L_{marg}$$
+
+${L_{WGP}+ L_{cond} + L_{marg}$
