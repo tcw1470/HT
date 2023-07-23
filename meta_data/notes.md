@@ -41,6 +41,6 @@ $$  E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G}(z)) ] - E_{x ~ p_{data}}[ \mathcal{
 > feature matching of decorrelated marginals in the principal componenet space
 - Use PCA $f(X)$ to compute first and second order moments
  
-${L_WGP+ L_cond + L_marg$
+$L_{WGP}+ L_cond + L_marg$
 
 $L_marg = L_mean + L_std$
