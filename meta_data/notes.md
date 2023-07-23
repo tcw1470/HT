@@ -20,7 +20,7 @@
 - $\mathcal D$ tries to discriminate generated data from real samples 
 - In one formulation, $\mathcal D$ seeks to minimize the **Wasserstein distance** between real $X$ and generated data $Z$ while the $\mathcal G$ seeks to maximize the same distance via:
 
-$$ \mathcal{L}_{WGP}( X, Z ):= E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - E_{x ~ p_{data}}[ \mathcal{D(x)} ] +\lambda || \triangledown_x D(\hat{x}) ||_2 - 1 $$
+$$ \mathcal{L}_{WGP}( X, Z ) := E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - E_{x ~ p_{data}}[ \mathcal{D(x)} ] +\lambda || \triangledown_x D(\hat{x}) ||_2 - 1 $$
 
 - Term 1
 - Term 2
@@ -29,7 +29,6 @@ $$ \mathcal{L}_{WGP}( X, Z ):= E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - 
 ## Benchmarks
 
 **TableGAN** (Park et al., 2018)
--
 -
 
 **CTGAN** (Xu et al., 2019): 
@@ -41,4 +40,4 @@ $$ \mathcal{L}_{WGP}( X, Z ):= E_{z ~ p_{gen}}[ \mathcal{D}(\mathcal{G(z)}) ] - 
 **MargCTGAN** (Afonja et al., 2023)
 > feature matching of decorrelated marginals in the principal componenet space
 
-$\mathcal{L}_{WGP}+\mathcal{L}_{cond}+\mathcal{L}_{marg}$
+$\mathcal{L}_{WGP} + \mathcal{L}_{cond} + \mathcal{L}_{marg}$
